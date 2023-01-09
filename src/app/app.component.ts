@@ -34,6 +34,7 @@ export class AppComponent {
        this.datasource = data;
        console.log("I am in ngOnInit IN this.datasource =====> ", this.datasource);
        this.totalRecords = data.length;
+       this.hsses = data;
    });
 
       this.loading = true;
@@ -46,7 +47,7 @@ export class AppComponent {
       //imitate db connection over a network
       setTimeout(() => {
           if (this.datasource) {
-             // this.hsses = this.datasource.slice(event.first, (event.first + event.rows));
+            //  this.hsses = this.datasource.slice(event.first, (event.first + event.rows));
               this.loading = false;
           }
       }, 1000);

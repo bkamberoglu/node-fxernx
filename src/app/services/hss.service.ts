@@ -2,7 +2,9 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Hss } from '../models/hss';
 
-@Injectable()
+@Injectable({
+  providedIn: "root"
+})
 export class HssService {
 
   private hssUrl = "/assets/hss/data/hss.json";

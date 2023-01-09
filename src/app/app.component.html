@@ -1,5 +1,5 @@
-<p-table [value]="hsses" [lazy]="true" (onLazyLoad)="loadHsses($event)"
-    [paginator]="true" [rows]="10" [totalRecords]="totalRecords" [loading]="loading">
+<p-table [value]="hsses" [lazy]="true" 
+    [paginator]="true" [rows]="10" [totalRecords]="totalRecords">
     <ng-template pTemplate="header">
         <tr>
             <th>IMSI</th>
@@ -21,3 +21,5 @@
         </tr>
     </ng-template>
 </p-table>
+
+<!--(onLazyLoad)="loadHsses($event)"-->

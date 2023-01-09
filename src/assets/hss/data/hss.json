@@ -1,0 +1,45 @@
+{
+    "data": [
+    {
+      "imsi": 1,
+      "explanation": "SMS-1",
+      "hybridTerminalName": "Terminal-1",
+      "hsmIntegration": "Yes",
+      "authority": "Officer",
+      "phoneNumber": "05302444664"
+    },
+    {
+      "imsi": 2,
+      "explanation": "SMS-2",
+      "hybridTerminalName": "Terminal-2",
+      "hsmIntegration": "Yes",
+      "authority": "Chief Officer",
+      "phoneNumber": "05382454664"
+    },
+    {
+      "imsi": 3,
+      "explanation": "SMS-3",
+      "hybridTerminalName": "",
+      "hsmIntegration": "No",
+      "authority": "",
+      "phoneNumber": "05402454664"
+    },
+    {
+      "imsi": 4,
+      "explanation": "SMS-4",
+      "hybridTerminalName": "Terminal-3",
+      "hsmIntegration": "Yes",
+      "authority": "Manager",
+      "phoneNumber": "05409315753"
+    },
+    {
+      "imsi": 5,
+      "explanation": "SMS-5",
+      "hybridTerminalName": "Terminal-4",
+      "hsmIntegration": "Yes",
+      "authority": "Manager",
+      "phoneNumber": "05419315753"
+    }
+  ]
+}
+  

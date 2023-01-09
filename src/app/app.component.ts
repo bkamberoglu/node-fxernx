@@ -10,13 +10,13 @@ import { HssService } from './services/hss.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  datasource: Hss[];
+  datasource: Hss[] = [];
 
-  hsses: Hss[];
+  hsses: Hss[] = [];
 
   totalRecords: number = 0;
 
-  cols: any[];
+  //cols: any[]|undefined;
 
   loading: boolean = false;
 
@@ -29,7 +29,7 @@ export class AppComponent {
     //       this.totalRecords = data.length;
     //   });
 
-      this.hssService.getHssData().then((data) => {
+      this.hssService.getHssData().then((data: Hss[]) => {
         console.log("I am in ngOnInit IN data =====> ", data);
        this.datasource = data;
        console.log("I am in ngOnInit IN this.datasource =====> ", this.datasource);

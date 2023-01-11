@@ -1,28 +1,30 @@
 
 <h2>SIM KART TANIMLAMA EKRANI</h2>
- 
-<p-table [value]="hsses" [lazy]="true" 
-    [paginator]="true" [rows]="10" [totalRecords]="totalRecords">
-    <ng-template pTemplate="header">
-        <tr>
-            <th>IMSI</th>
-            <th>Explanation</th>
-            <th>HSM Integration</th>
-            <th>Phone Number</th>
-            <th>Hybrid Terminal Name</th>
-            <th>Authority</th>
-        </tr>
-    </ng-template>
-    <ng-template pTemplate="body" let-hss>
-        <tr>
-            <td>{{hss.imsi}}</td>
-            <td>{{hss.explanation}}</td>
-            <td>{{hss.hsmIntegration}}</td>
-            <td>{{hss.phoneNumber}}</td>
-            <td>{{hss.hybridTerminalName}}</td>
-            <td>{{hss.authority}}</td>
-        </tr>
-    </ng-template>
-</p-table>
+
+<p-card>
+    <p-table [value]="hsses" [lazy]="true" 
+        [paginator]="true" [rows]="10" [totalRecords]="totalRecords">
+        <ng-template pTemplate="header">
+            <tr>
+                <th>IMSI</th>
+                <th>Explanation</th>
+                <th>HSM Integration</th>
+                <th>Phone Number</th>
+                <th>Hybrid Terminal Name</th>
+                <th>Authority</th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-hss>
+            <tr>
+                <td>{{hss.imsi}}</td>
+                <td>{{hss.explanation}}</td>
+                <td>{{hss.hsmIntegration}}</td>
+                <td>{{hss.phoneNumber}}</td>
+                <td>{{hss.hybridTerminalName}}</td>
+                <td>{{hss.authority}}</td>
+            </tr>
+        </ng-template>
+    </p-table>
+</p-card>
 
 <!--(onLazyLoad)="loadHsses($event)"-->

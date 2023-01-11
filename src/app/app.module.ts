@@ -17,6 +17,7 @@ import { ProgressBarModule } from 'primeng/progressbar';
 import { SliderModule } from 'primeng/slider';
 import { TableModule } from 'primeng/table';
 import { ToastModule } from 'primeng/toast';
+import {CardModule} from 'primeng/card';
 @NgModule({
   imports:      [
     BrowserModule,
@@ -33,6 +34,7 @@ import { ToastModule } from 'primeng/toast';
     InputTextModule,
     ProgressBarModule,
     HttpClientModule,
+    CardModule,
     FormsModule],
   declarations: [ AppComponent ],
   bootstrap:    [ AppComponent ]

@@ -39,7 +39,56 @@
       "hsmIntegration": "Yes",
       "authority": "Manager",
       "phoneNumber": "05419315753"
+    },
+    {
+      "imsi": 6,
+      "explanation": "SMS-6",
+      "hybridTerminalName": "Terminal-6",
+      "hsmIntegration": "Yes",
+      "authority": "Director",
+      "phoneNumber": "05419315766"
+    },
+    {
+      "imsi": 7,
+      "explanation": "SMS-7",
+      "hybridTerminalName": "Terminal-7",
+      "hsmIntegration": "Yes",
+      "authority": "Manager",
+      "phoneNumber": "05419315777"
+    },
+    {
+      "imsi": 8,
+      "explanation": "SMS-8",
+      "hybridTerminalName": "Terminal-8",
+      "hsmIntegration": "Yes",
+      "authority": "Manager",
+      "phoneNumber": "05419315799"
+    },
+    {
+      "imsi": 9,
+      "explanation": "SMS-9",
+      "hybridTerminalName": "Terminal-9",
+      "hsmIntegration": "Yes",
+      "authority": "Manager",
+      "phoneNumber": "05419315799"
+    },
+    {
+      "imsi": 10,
+      "explanation": "SMS-10",
+      "hybridTerminalName": "Terminal-8",
+      "hsmIntegration": "Yes",
+      "authority": "Manager",
+      "phoneNumber": "05419315799"
+    },
+    {
+      "imsi": 8,
+      "explanation": "SMS-8",
+      "hybridTerminalName": "Terminal-8",
+      "hsmIntegration": "Yes",
+      "authority": "Manager",
+      "phoneNumber": "05419315799"
     }
+
   ]
 }
   
